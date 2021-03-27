@@ -1,0 +1,38 @@
+// Namespaces are not compilable.
+// Do not import this file. Or import external dependencies.
+// Use like so - const intro: LickApi.IIntro = {...};
+
+/* eslint-disable */
+declare namespace LickApi {
+  interface IIntro {
+    text: string;
+  }
+
+  interface ICharacterCore {
+    id: number;
+    name: string;
+    species: string;
+    gender: string;
+    avatar: string;
+  }
+
+  interface ICharacter extends ICharacterCore {
+    origin: ILocation;
+    location: ILocation;
+    episodes: IEpisode[];
+  }
+
+  interface ILocation {
+    id: number;
+    name: string;
+    type: string;
+    dimension: string;
+  }
+
+  interface IEpisode {
+    id: number;
+    name: string;
+    airDate: string;
+    episode: string;
+  }
+}
