@@ -11,6 +11,7 @@ declare namespace LickApi {
   interface ICharacterCore {
     id: number;
     name: string;
+    status: string;
     species: string;
     gender: string;
     avatar: string;
@@ -26,6 +27,7 @@ declare namespace LickApi {
     id: number;
     name: string;
     type: string;
+    noOfResidents: number;
     dimension: string;
   }
 
@@ -33,6 +35,7 @@ declare namespace LickApi {
     id: number;
     name: string;
     airDate: string;
+    noOfCharacters: number;
     episode: string;
   }
 }

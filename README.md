@@ -9,9 +9,10 @@ Create a custom rest API to pre-filter all required data needed for the frontend
 The interfaces in the codebase will show you what the data structure should look like, if you need to extend them, feel free!
 
 #### Part 2
-Build a simple UI to list all Alive Rick characters using the basic wireframes provided. The character tiles should click through to their own character page, again using the wireframes for the “single character” page.
+Build a simple UI to list all Alive Rick characters using the basic wireframes provided. The character tiles should click through to their own character page, again using the wireframes for the “single character” page with the relevant information shown.
 
-**Please ensure your work checks all the points below – it’s what we will be looking out for:**
+##### Please ensure your work checks all the points below – it’s what we will be looking out for
+
 - Your chosen method for fetching and aggregating data.
 - Chosen folder structure
 - The layout should be based on the wireframes provided.
@@ -21,7 +22,7 @@ Build a simple UI to list all Alive Rick characters using the basic wireframes p
 - The site should be built using responsive techniques.
 - **YOU MUST** use the boilerplate provided.
 
-Taking things further:
+### Taking things further:
 (Not a requirement but if you think it will help us assess your skill level and passion).  If you have the time, here are some suggestions to enhance the app:
 
 - Include Alive Morty characters (it is Rick and Morty at the end of the day - 😆)
@@ -30,7 +31,3 @@ Taking things further:
 - Responsive images
 - Unit tests
 - Performance optimisation (add a cache layer)
-
-## Next Steps:
-
-Once you have completed the challenge (or done as much as you could in the time provided), please email over a link to your repo (if it is private, then let us know, so we can tell you who to provide access to for review), and we will schedule the code review and technical interview. This interview will include our Tech Lead, Head of Product and other members of the Lick team.
