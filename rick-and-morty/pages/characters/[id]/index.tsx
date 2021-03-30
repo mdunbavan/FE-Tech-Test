@@ -10,7 +10,7 @@ import styled from "styled-components";
 // I knew I'd be accessing the endpoint again to get more dynamic data
 
 const CharactersIndexPage = ({ data, locationData, firstEpisodeData, lastEpisodeData }) => {
-    // Log it out for purposes of knowing wtf is going on 
+    // Log it out for purposes of knowing wtf is going on, in prod I would remove these obviously
   console.log("data", data);
   console.log("location", locationData);
   console.log("episode", firstEpisodeData)
