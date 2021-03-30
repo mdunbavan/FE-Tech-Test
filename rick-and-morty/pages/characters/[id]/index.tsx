@@ -1,9 +1,6 @@
-import NextLink from "next/link";
-import { NextPage, GetStaticProps } from "next";
 import Locations from '../../../src/components/_templates/Locations';
 import Episode from '../../../src/components/_templates/Episode';
 import axios from "axios";
-import { useRouter } from "next/router";
 import styled from "styled-components";
 
 // So this page was harder to wrangle but I decided on using `getServerSideProps` because

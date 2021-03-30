@@ -1,5 +1,4 @@
-import NextLink from "next/link";
-import { NextPage, GetStaticProps } from "next";
+import { GetStaticProps } from "next";
 import CharacterCard from "../../src/components/_templates/CharacterCard";
 import styled from "styled-components";
 import axios from "axios";
