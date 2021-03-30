@@ -51,11 +51,18 @@ const CTA = styled.a`
 
 const ListItem = styled.li`
   width: 200px;
+  padding: 0 10px;
+  @media (max-width: 768px) {
+    width: 50%;
+  }
 `;
 
 const Image = styled.img`
   width: 200px;
-  height: 200px;
+  height: auto;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export default CharacterCard;
