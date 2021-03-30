@@ -18,7 +18,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "rootDirs": ["src"]
+    "rootDirs": [
+      "src"
+    ]
   },
   "include": [
     "next-env.d.ts",
