@@ -1,3 +1,4 @@
+import React, { FC } from "react";
 import { GetStaticProps } from "next";
 import CharacterCard from "../../src/components/_templates/CharacterCard";
 import styled from "styled-components";
@@ -9,8 +10,8 @@ const CharactersIndexPage = ({ characters }) => {
       <Header>
         <Title>Rick &amp; Morty</Title>
       </Header>
-      <List>
-        {characters.results.map(character => {
+      <List role="navigation" aria-label="Catalogue">
+        {characters?.results.map(character => {
           // spread the character prop and get the available items within it
           const { id, name, image, gender, species } = character;
           return (
